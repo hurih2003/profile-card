@@ -25,7 +25,7 @@ body {
 }
 @media(max-width:600px){
     .card{
-        width: 90%;
+        width: 85%;
     }
 }
 .card:hover {

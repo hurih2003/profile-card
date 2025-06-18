@@ -1,0 +1,73 @@
+body {
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+    background-image: linear-gradient(45deg, #39529d 26%, #f4b097 86%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1rem;
+    font-family: "Marker Felt", "Comic Sans MS", cursive, sans-serif;
+    
+}
+.card{
+    background-color: rgba(255, 255, 255, 0.3);
+    padding: 2rem;
+    border-radius: 1.25rem;
+    width: 25%;
+    box-shadow: 0 0 1.25rem rgba(0, 0, 0, 1);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+.card:hover {
+    transform: scale(1.03);
+    box-shadow: 0 0 2rem rgba(0, 0, 0, 0.5);
+}
+.card h2{
+    color: #0c2675;
+}
+.card img {
+    width: 40%;
+    height: 40%;
+    border-radius: 50%;
+    transition: transform 0.3s ease;
+}
+.card img:hover {
+    transform: scale(1.1) translateY(-5px);
+}
+.name{
+    line-height: 0.5rem;
+}
+
+.location {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    color: #444;
+}
+
+
+
+.information {
+    display: flex;
+    flex-direction: column;
+
+}
+
+ul { 
+    color: #444;
+    list-style: none;
+    padding-left: 0%;
+    text-align: left;
+}
+.icone {
+    display: flex;
+    justify-content: center; 
+    gap: 2rem; 
+    margin-top: 1rem; 
+}

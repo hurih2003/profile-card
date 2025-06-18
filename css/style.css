@@ -23,9 +23,9 @@ body {
     text-align: center;
     transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
-@media(max-width:1155px){
+@media(max-width:600px){
     .card{
-        width: 80%;
+        width: 90%;
     }
 }
 .card:hover {

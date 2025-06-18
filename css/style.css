@@ -7,8 +7,11 @@ body {
     justify-content: center;
     align-items: center;
     font-size: 1rem;
-    font-family: "Marker Felt", "Comic Sans MS", cursive, sans-serif;
-font-weight: bold;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal
+  font-family: "Marker Felt", "Comic Sans MS", cursive, sans-serif;
+  font-weight: bold;
     
 }
 .card{
